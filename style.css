@@ -9,6 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 html {
@@ -159,6 +160,7 @@ section {
 
 .section-container {
   display: flex;
+  
 }
 
 /* PROFILE SECTION */
@@ -277,6 +279,7 @@ section {
 .about-details-container {
   justify-content: center;
   flex-direction: column;
+ 
 }
 
 .about-containers,
@@ -297,11 +300,16 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: white;
+  /* background: white; */
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
+  background: linear-gradient(135deg, rgba(75, 74, 73, 0.4), rgba(71, 78, 82, 0.7));
   text-align: center;
+  
+}
+.details-container-color-container{
+  background: linear-gradient(135deg, rgba(75, 74, 73, 0.4), rgba(71, 78, 82, 0.7));
 }
 
 .section-container {
